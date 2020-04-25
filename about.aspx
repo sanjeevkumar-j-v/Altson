@@ -1,6 +1,15 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="about.aspx.cs" Inherits="about" %>
+
+<
+%@ Page Language="C#" AutoEventWireup="true" CodeFile="about.aspx.cs" Inherits="about" %>
 
 <!DOCTYPE html>
+<script runat="server">
+
+    Protected Sub Page_Load(sender As Object, e As EventArgs)
+
+    End Sub
+</script>
+
 
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
@@ -29,7 +38,7 @@
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet"/>
 
-  
+
 </head>
 
 <body>
@@ -137,7 +146,9 @@
         <span></span>
         <span></span>
       </button>
-      <a class="navbar-brand text-brand" href="index.html">Estate<span class="color-b">Agency</span></a>
+        <span class="color-b">
+            <img src="img/ALTSON LOGO.png" height="42" width="42" />
+      <a class="navbar-brand text-brand" href="index.html">ALTSON</a></span>
       <button type="button" class="btn btn-link nav-search navbar-toggle-box-collapse d-md-none" data-toggle="collapse"
         data-target="#navbarTogglerDemo01" aria-expanded="false">
         <span class="fa fa-search" aria-hidden="true"></span>
@@ -187,7 +198,7 @@
       <div class="row">
         <div class="col-md-12 col-lg-8">
           <div class="title-single-box">
-            <h1 class="title-single">Here we are to provide you best services. </h1>
+            <h1 class="title-single">Want to get connected with the nearby sellers. Altson is here to offer you everything... </h1>
           </div>
         </div>
         <div class="col-md-12 col-lg-4">
@@ -288,8 +299,8 @@
               </div>
               <div class="card-body-d">
                 <p class="content-d color-text-a">
-                  
-                    I am here on behalf of Ag is the man to beat . We are a super team to formulate anything.
+
+                    I am here on behalf of APOORV GUPTA( Ag is the man to beat) . We are a super team to formulate anything.
 
                 </p>
                 <div class="info-agents color-a">
@@ -343,7 +354,7 @@
                 <div class="card-title-d align-self-center">
                   <h3 class="title-d">
                     <a href="agent-single.html" class="link-two">Astitva Dubey
-                      <br /> Darw</a>
+                     </a>
                   </h3>
                 </div>
               </div>
@@ -401,7 +412,7 @@
               <div class="card-header-d">
                 <div class="card-title-d align-self-center">
                   <h3 class="title-d">
-                    <a href="agent-single.html" class="link-two">Apporve Gupta
+                    <a href="agent-single.html" class="link-two">Apoorv Gupta
                       <br /> Developer & DBA</a>
                   </h3>
                 </div>
@@ -453,6 +464,8 @@
         </div>
       </div>
     </div>
+      
+                    
   </section>
   <!--/ Team End /-->
 
@@ -463,20 +476,20 @@
         <div class="col-sm-12 col-md-4">
           <div class="widget-a">
             <div class="w-header-a">
-              <h3 class="w-title-a text-brand">Agson</h3>
+              <h3 class="w-title-a text-brand">Altson</h3>
             </div>
             <div class="w-body-a">
               <p class="w-text-a color-text-a">
                 ALTSON  is the brand you need for the best of everything . We are here to give the best services.
-                
+
               </p>
             </div>
             <div class="w-footer-a">
               <ul class="list-unstyled">
                 <li class="color-a">
-                  <span class="color-text-a">Phone .</span> +91 9639470944</li>
+                  <span class="color-text-a">Phone .</span> +91 9125273959</li>
                 <li class="color-a">
-                  <span class="color-text-a">Email .</span>contact@example.com </li>
+                  <span class="color-text-a">Email .</span> gaurav27102001@gmail.com </li>
               </ul>
             </div>
           </div>
@@ -603,7 +616,7 @@
             </p>
           </div>
           <div class="credits">
-           
+
          <!--   Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
         -->  </div>
         </div>
@@ -631,4 +644,3 @@
 
 </body>
 </html>
-

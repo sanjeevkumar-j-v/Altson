@@ -1,12 +1,12 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="WebForm5.aspx.cs" Inherits="ALTSON_NEW.WebForm5" %>
+<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="LOGIN CUSTOMER.aspx.cs" Inherits="ALTSON_NEW.WebForm5" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-   <div class="login-register">
+    <div class="register-login">
             
                 <ul class="buttons-link</">
-  <li> <a class="navbar-brand text-brand" href="index.html"  ><h1>Sign In <span class="color-b">As Customer...</span></h1></a></li> 
-    <li>   <a class="navbar-brand text-brand" href="index.html"  ><h1>Sign In <span class="color-b">As Seller...</span></h1></a></li> 
+  <li> <a class="navbar-brand text-brand" href="index.html" ><h1>Sign In <span class="color-b">As Customer...</span></h1></a></li> 
+    <li>   <a class="navbar-brand text-brand" href="index.html" ><h1>Sign In <span class="color-b">As Seller...</span></h1></a></li> 
                       
                     </ul>
        </div>
